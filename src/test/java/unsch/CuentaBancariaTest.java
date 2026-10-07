@@ -9,6 +9,6 @@ public class CuentaBancariaTest {
     void depositoDebeIncrementarSaldo() {
         CuentaBancaria cuenta = new CuentaBancaria(100);
         cuenta.depositar(50);
-        assertEquals(200, cuenta.obtenerSaldo());
+        assertEquals(150, cuenta.obtenerSaldo());
     }
 }
